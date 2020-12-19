@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView.findViewById(R.id.textv);
+        textView=findViewById(R.id.textv);
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://13.232.95.6/")
