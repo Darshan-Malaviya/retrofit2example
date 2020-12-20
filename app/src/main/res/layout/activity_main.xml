@@ -12,4 +12,32 @@
         android:layout_height="match_parent"
         android:id="@+id/viewpager"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonslayout"
+        android:gravity="center"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:layout_weight="1"
+            android:id="@+id/prevbutton"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="5dp"
+            android:text="desc"
+            android:id="@+id/descbutton"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:layout_weight="1"
+            android:id="@+id/nextbutton"/>
+    </LinearLayout>
+
 </RelativeLayout>
