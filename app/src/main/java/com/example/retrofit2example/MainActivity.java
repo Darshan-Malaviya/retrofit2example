@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ViewPager viewPager = findViewById(R.id.viewpager);
+        viewPager.setPageTransformer(true,new HingeAnimation());
         /*ViewPagerAdapter adapter = new ViewPagerAdapter(this,calendarList);
         viewPager.setAdapter(adapter);*/
 
